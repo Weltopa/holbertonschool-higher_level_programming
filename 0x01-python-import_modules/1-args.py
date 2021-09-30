@@ -9,5 +9,5 @@ if __name__ == "__main__":
         usr_args = sys.argv[1:]
         i = 1
         for arg in usr_args:
-            print("{:d}: {}".format(i. arg))
+            print("{:d}: {}".format(i, arg))
             i += 1
