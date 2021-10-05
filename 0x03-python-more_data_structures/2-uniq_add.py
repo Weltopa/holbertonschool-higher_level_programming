@@ -4,4 +4,4 @@ def uniq_add(my_list=[]):
     for x in my_list:
         if x not in uniq_list:
             uniq_list.append(x)
-            return sum(uniq_list)
+    return sum(uniq_listi)
