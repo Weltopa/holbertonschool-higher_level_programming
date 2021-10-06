@@ -5,4 +5,5 @@
 
 class Square:
     """Empty class that defines a square"""
-    pass
+    def __init__(self, size):
+        self.__size = size
