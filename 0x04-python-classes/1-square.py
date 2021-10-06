@@ -1,12 +1,13 @@
 #!/usr/bin/python3
 # 1-square.py
 class Square:
-    """ Square class"""
+    """ Square class
+    """
 
     def __init__(self, size):
         """ Initialization of a Square object
 
         Args:
-        size: the size of the square
+            size: the size of the square
         """
         self.__size = size
