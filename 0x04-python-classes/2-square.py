@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 # 2-square.py
-""" Mod for Square with docstring at top """
+""" Module for Square with docstring at top """
 
 class Square:
     """ Makes a size """
