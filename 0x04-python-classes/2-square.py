@@ -2,6 +2,7 @@
 # 2-square.py
 """ Module for Square with docstring at top """
 
+
 class Square:
     """ Makes a size """
     def __init__(self, size=0):
@@ -12,7 +13,7 @@ class Square:
         if size < 0:
             raise ValueError("size must be >= 0")
 
-        """Area function"""
-        def area(self, size=0):
-            calc_area = self.__size ** 2
-            return calc_area
+    """Area function"""
+    def area(self, size=0):
+        calc_area = self.__size ** 2
+        return calc_area
