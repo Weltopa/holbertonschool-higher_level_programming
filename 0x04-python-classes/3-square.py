@@ -22,3 +22,7 @@ class Square:
     def area(self, size=0):
         calc_area = self.__size ** 2
         return calc_area
+
+    """Getter"""
+    def get_size(self):
+        return self.__size
