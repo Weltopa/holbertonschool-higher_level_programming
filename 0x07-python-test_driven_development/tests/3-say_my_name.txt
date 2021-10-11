@@ -1,0 +1,16 @@
+#3-say_my_name.txt
+The ``3-say_my_name.py`` module
+======================
+
+using ``add_integer``
+-------------------
+
+	>>> say_my_name= __import__('3-say_my_name').say_my_name
+	>>> say_my_name("Daudi", "Peter")
+	My name is Daudi Peter
+	>>> say_my_name(7, "Daudi")
+	Traceback (most recent call last):
+	TypeError: first_name must be a string
+	>>> say_my_name("Peter", 7)
+	Traceback (most recent call last):
+	TypeError: last_name must be a string
