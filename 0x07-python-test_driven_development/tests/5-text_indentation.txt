@@ -5,6 +5,14 @@ Using ``text_indentation``
 -------------------
 
 	>>> text_indentation = __import__("5-text_indentation").text_indentation
-	>>> text_indentation(". ? :")
-	. ? :
+	>>> text_indentation(" ?:. ")
+	?
+	<BLANKLINE>
+	:
+	<BLANKLINE>
+	.
+	<BLANKLINE>
+	>>> text_indentation("hello hi?")
+	hello hi?
+	<BLANKLINE>
 	
