@@ -1,4 +1,4 @@
-#1/usr/bin/python3
+#!/usr/bin/python3
 """Function that checks instance of class"""
 
 
