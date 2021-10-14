@@ -1,8 +1,11 @@
 #!/usr/bin/python3
-"""Define BaseGeo Class"""
+"""Define BaseGeometry Class"""
+
 
 """DEfines Class"""
+
+
 class BaseGeometry:
-    """Function that raises accordingly"""
+    """Function that raises error"""
     def area(self):
         raise Exception("area() is notimplemented")
