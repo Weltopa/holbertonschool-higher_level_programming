@@ -1,0 +1,7 @@
+``1-my_list`` module
+===================
+
+>>> BaseGeometry = __import__('7-base_gemoetry').BaseGeometry
+>>> bg = BaseGeometry()
+>>> bg.integer_validator("width", 14)
+>>> bg.integer_validator("height", 10)
