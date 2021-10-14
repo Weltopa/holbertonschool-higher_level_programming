@@ -1,0 +1,17 @@
+``1-my_list`` module
+====================
+
+Using ``print_sorted``
+-------------------
+
+	>>> MyList = __import__("1-my_list").MyList
+	>>> leest = MyList()
+	>>> leest.print_sorted()
+	[]
+
+	>>> liist = MyList()
+	>>> liist.append(3)
+	>>> liist.append(2)
+	>>> liist.append(1)
+	>>> print(liist)
+	[3, 2, 1]
