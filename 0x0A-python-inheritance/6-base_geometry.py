@@ -2,9 +2,6 @@
 """Define BaseGeometry Class"""
 
 
-"""DEfines Class"""
-
-
 class BaseGeometry:
     """Function that raises error"""
     def area(self):
