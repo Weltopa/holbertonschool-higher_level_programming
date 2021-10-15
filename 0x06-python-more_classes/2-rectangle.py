@@ -53,4 +53,4 @@ class Rectangle:
         if self.__width == 0 or self.__height == 0:
             return strrep
         strrep = ("#" * self.__width + "\n") * self.__height
-        return strrep
+        return strrep[:-1]
