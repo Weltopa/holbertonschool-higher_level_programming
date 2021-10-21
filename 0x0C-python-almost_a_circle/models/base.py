@@ -1,13 +1,12 @@
 #!/usr/bin/python3
 """File for base.py"""
-import json
 
 
 class Base:
     """Details for Base class"""
-    
+
     __nb_objects = 0
-    
+
     def __init__(self, id=None):
         """Instantiation each had integer id"""
         if id is not None:
