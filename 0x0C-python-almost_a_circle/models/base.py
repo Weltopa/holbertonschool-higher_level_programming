@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """File for base.py"""
 
+
 class Base:
     """Details for Base class"""
     
