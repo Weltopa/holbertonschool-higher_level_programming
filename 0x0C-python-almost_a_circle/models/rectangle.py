@@ -14,7 +14,7 @@ class Rectangle(Base):
         self.x = x
         self.y = y
 
-        def __str__(Self):
+        def __str__(self):
             """Printing rectangle string"""
             return "[Rectangle] ({}) {}/{} - {}/{}".format(
                 self.id
