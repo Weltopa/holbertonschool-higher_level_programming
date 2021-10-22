@@ -105,3 +105,16 @@ class Rectangle(Base):
         strrep = "[Rectangle] ({}) {}/{}".format(self.id, self.__x, self.__y)
         strrep += " - {}/{}".format(self.width, self.height)
         return strrep
+
+    def update(self, *args):
+        """Update Rectangle by adding public method that assigns arguments"""
+        if id is not None:
+            self.id = id
+        if width is not None:
+            self.width = width
+        if height is not None:
+            self.height = height
+        if x is not None:
+            self.x = x
+        if y is not None:
+            self.y = y
