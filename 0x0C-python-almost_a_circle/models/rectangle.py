@@ -108,13 +108,7 @@ class Rectangle(Base):
 
     def update(self, *args):
         """Update Rectangle by adding public method that assigns arguments"""
-        if id is not None:
-            self.id = id
-        if width is not None:
-            self.width = width
-        if height is not None:
-            self.height = height
-        if x is not None:
-            self.x = x
-        if y is not None:
-            self.y = y
+        if (args and args is not []):
+            key = ["id", "width", "height", "x", "y"]
+            for i in range(0, len(args)):
+                setattr(self, key[i], args[i])
