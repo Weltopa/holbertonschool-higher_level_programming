@@ -112,7 +112,6 @@ class Rectangle(Base):
             key = ["id", "width", "height", "x", "y"]
             for i in range(0, len(args)):
                 setattr(self, key[i], args[i])
-
-            else:
-                for key in kwargs.keys():
-                    setattr(self, key, kwargs[key])
+        else:
+            for key in kwargs.keys():
+                setattr(self, key, kwargs[key])
