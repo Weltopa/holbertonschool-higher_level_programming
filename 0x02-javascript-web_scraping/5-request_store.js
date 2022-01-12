@@ -11,4 +11,4 @@ GET(url, (err, res, body) => {
   write(filename, body, 'utf8', (err) => {
     if (err) return (console.log(err));
   });
-]);
+});
