@@ -7,21 +7,11 @@ class Square:
     """
 
     def __init__(self, size=0):
-        """ Initialization of Square object
-
-        Args:
-            size: the size of the square
-        """
-        if type(size) is not int:
-            raise TypeError("size must be an integer")
-        if size < 0:
-            raise ValueError("size must be >=0")
-        self.__size = size
+        """ Initialization of Square object """
 
     """Function for area"""
-    def area(self, size=0):
-        calc_area = self.__size ** 2
-        return calc_area
+    def area(self):
+        return self.size__size ** 2
 
     """Getter"""
     @property
@@ -30,10 +20,11 @@ class Square:
 
     """Setter"""
     @size.setter
-    def size(self, value):
+    def size(self, size):
         """Set size"""
         if type(value) is not int:
             raise TypeError("size must be an integer")
-        if value < 0:
+        elif value < 0:
             raise ValueError("size must be >= 0")
-        self.__size = value
+        else:
+            self.__size = size
